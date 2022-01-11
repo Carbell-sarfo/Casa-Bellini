@@ -448,6 +448,36 @@ table tr:nth-child(even) {
 }
 
 
+
+
+
+/* ========================= FORM SUCCESS ================  */
+.form-success {
+    background: var(--clr-orange);
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    position: relative;
+}
+.form-success .success-container {
+    padding: 2rem;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.411);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.form-success .success-container p {
+    margin: 1rem 0;
+}
+
+
+
+
+
+
 /* ========================= SECTION-FOOTER ================  */
 .section-footer {
     background: linear-gradient(to right bottom, #06690e, #022205);
