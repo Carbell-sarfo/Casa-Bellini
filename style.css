@@ -455,7 +455,7 @@ table tr:nth-child(even) {
 .form-success {
     background: var(--clr-orange);
     width: 100vw;
-    height: 100vw;
+    height: 100vh;
     display: flex;
     position: relative;
 }
