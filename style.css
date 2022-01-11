@@ -19,7 +19,8 @@ body {
     --clr-red: #FF2024;
     --clr-dark: #001936;
     --clr-light: #FFF0F5;
-    --clr-green-light: #037436;
+    /* --clr-green-light: #037436; */
+    --clr-green-light: #744703;
     --clr-green-dark: #01796F;
 }
 
@@ -188,7 +189,7 @@ img {
 .section-hero {
     width: 100%;
     height: 90vh;
-    background: linear-gradient(to right bottom, rgba(6, 105, 14, 0.85), rgba(7, 95, 14, 0.938)), 
+    background: linear-gradient(to right bottom, rgba(105, 74, 6, 0.85), rgba(95, 79, 7, 0.938)), 
                 url(./Assets/cheezzypizza-gram-9.png);
     background-size: cover;
     background-position: center;
@@ -296,7 +297,7 @@ img {
     overflow: hidden;
 }
 .contact .info {
-    background: linear-gradient(to right bottom, rgba(6, 105, 14, 0.8), rgba(6, 105, 14, 0.8)), url(./Assets/cheezzypizza-gram-9.png);
+    background: linear-gradient(to right bottom, rgba(116, 71, 3, 0.849), rgba(37, 22, 0, 0.877)), url(./Assets/cheezzypizza-gram-9.png);
     background-size: cover;
     background-position: center;
     padding: 5rem 1rem;
@@ -362,7 +363,7 @@ img {
     margin-bottom: 5rem;
 }
 .menu-list {
-    background: linear-gradient(to right, rgba(6, 105, 14, 0.815), rgba(6, 105, 14, 0.829)), url(./Assets/cheezzypizza-gram-9.png);
+    background: linear-gradient(to right bottom, rgba(116, 71, 3, 0.9), rgba(37, 22, 0, 0.9)), url(./Assets/cheezzypizza-gram-9.png);
     background-size: cover;
     padding: 5rem 0;
 }
@@ -398,7 +399,7 @@ table tr {
     border-radius: 30px;
 }
 table tr:nth-child(even) {
-    background: darkgreen;
+    background: rgba(116, 71, 3, 0.95);
 }
 
 
@@ -480,7 +481,7 @@ table tr:nth-child(even) {
 
 /* ========================= SECTION-FOOTER ================  */
 .section-footer {
-    background: linear-gradient(to right bottom, #06690e, #022205);
+    background: linear-gradient(to right bottom, #744703, #251600);
     text-align: center;
     padding: 100px 0 100px;
 }
@@ -498,7 +499,7 @@ table tr:nth-child(even) {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: linear-gradient(to right bottom, #075f0e, #022505);
+    background: linear-gradient(to right bottom, #744703, #251600);
     border: 1px solid var(--clr-light);
     margin-right: 5px;
     transition: .4s;
@@ -622,7 +623,7 @@ table tr:nth-child(even) {
     .nav-bar .nav-list {
         width: 75vw;
         height: 100vh;
-        background: rgba(6, 105, 14, 0.9);
+        background: rgba(116, 71, 3, 0.95);
         position: fixed;
         top: 0;
         right: 0;
